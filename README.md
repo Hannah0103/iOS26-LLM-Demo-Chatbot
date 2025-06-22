@@ -10,10 +10,7 @@ This project demonstrates a local large language model (LLM) chat interface buil
 ❗️ **All conditions must be met**:
 1. **Device**: US-market iPhone (confirmed to work)
 2. **OS**: iOS 26 system (not compatible with older versions)
-3. **Xcode**: Version 16 (or higher)
-4. **Important Note**: 
-   - Hong Kong-market iPhones are **not supported** (API returns "unavailable")
-   - No need for a physical SIM card, but Apple ID region must be set to the US
+3. **Xcode**: Version 26
 
 ---
 
@@ -24,6 +21,7 @@ This project demonstrates a local large language model (LLM) chat interface buil
 - Foundation for building advanced on-device AI applications
 
 [download the view, see how it works](./ScreenRecording.MP4)
+
 ---
 
 ## 📄 Main Class Overview
@@ -33,17 +31,17 @@ This project demonstrates a local large language model (LLM) chat interface buil
   Purpose: Core component for managing LLM conversation sessions
 
   Key Properties:
-    Initializes on-device model session
+   Initializes on-device model session
      - Uses LanguageModelSession to create a local model session
      - Configures generation parameters via GenerationOptions
   
-    Manages conversation message list
+   Manages conversation message list
      - Maintains the state of chat history and response data
    
-    Processes user input
+   Processes user input
      - Accepts user input text (inputText) as model input parameter
   
-    Generates model responses
+   Generates model responses
      - Invokes respond() method to retrieve model-generated replies
      - Handles asynchronous response streaming and completion
 
