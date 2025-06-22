@@ -23,7 +23,7 @@ This project demonstrates a local large language model (LLM) chat interface buil
 - Demonstration of iOS 26's `LanguageModelSession` and `SystemLanguageModel` capabilities
 - Foundation for building advanced on-device AI applications
 
-![watch the vide](./ScreenRecording.MP4)
+[watch the vide](./ScreenRecording.MP4)
 
 ---
 
